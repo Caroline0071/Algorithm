@@ -6,6 +6,7 @@
 
 import random
 
+
 def quick_sort(seq):
     if len(seq) < 2:
         return seq
