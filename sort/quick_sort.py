@@ -23,6 +23,26 @@ def quick_sort(seq):
     return quick_sort(lo) + [pivot] + quick_sort(hi)
 
 
+def quick_sort2(seq, start, end):
+    if start < end:
+        pivot = partition(seq, start, end)
+        quick_sort2(seq, start, pivot)
+        quick_sort2(seq, pivot+1, end)
+    return seq
+
+def partition(seq, start, end):
+    pivot = seq[start]
+    while start < end:
+        while start < end and seq[end] >= pivot:
+            end -= 1
+        while start < end and seq[end] < pivot:
+            seq[start] = seq[end]
+            start += 1
+            seq[end] = seq[start]
+    seq[start] = pivot
+    return start
+
+
 def test_quick_sort():
     seq = [x for x in range(10)]
 #    print(seq)
@@ -30,7 +50,7 @@ def test_quick_sort():
 #    print(seq)
     assert(quick_sort(seq) == sorted(seq))
     print("PASS")
-#    assert (quick_sort_divided(seq) == sorted(seq))
+    assert (quick_sort2(seq, 0, len(seq)-1) == sorted(seq))
     print("PASS")
 
 if __name__ == "__main__":
