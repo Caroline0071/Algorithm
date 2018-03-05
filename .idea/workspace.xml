@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22f0a06b-0ffe-43fe-84dd-7f242319f0ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort/quick_sort.py" afterPath="$PROJECT_DIR$/sort/quick_sort.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="171">
+              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -59,8 +58,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="67" />
+    <option name="x" value="57" />
+    <option name="y" value="152" />
     <option name="width" value="1400" />
     <option name="height" value="833" />
   </component>
@@ -297,47 +296,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 16h 40m 07s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 38m 32s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 16h 40m 48s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 39m 13s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 17h 02m 34s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 39m 28s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 17h 04m 21s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 41m 13s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 17h 09m 42s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 42m 30s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 17h 34m 54s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 48m 18s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 17h 35m 29s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 51m 21s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 17h 59m 40s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 51m 50s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 01m 29s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 52m 10s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 18h 15m 53s.xml">
+    <history-entry file="py_test_in_quick_sort_py - 2018.03.05 at 19h 19m 35s.xml">
       <configuration name="py.test in quick_sort.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="67" width="1400" height="833" extended-state="0" />
+    <frame x="57" y="152" width="1400" height="833" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5025381" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4480432" sideWeight="0.49746192" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4480432" sideWeight="0.49746192" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -372,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="171">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
           <folding />
         </state>
       </provider>
