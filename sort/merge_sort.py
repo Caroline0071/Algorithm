@@ -11,14 +11,13 @@ def merge_sort(seq):
     right = None
     mid = len(seq) // 2
     if seq[:mid]:
-        left = merge_sort(seq[:mid])
-        print(left)
+        left = merge_sort(seq[:mid])  #left是有序的
     if seq[mid:]:
-        right = merge_sort(seq[mid:])
-    return merge_2n(left, right)
-'''
-目前返回的result有问题
-def merge_n(left, right): #暂时有问题，result不正确
+        right = merge_sort(seq[mid:]) #right是有序的
+    return merge_n(left, right)
+
+
+def merge_n(left, right):  #合并两个有序数列
     if not left or not right:
         return left or right
     result = []
@@ -31,13 +30,11 @@ def merge_n(left, right): #暂时有问题，result不正确
             result.append(right[j])
             print(result)
             j += 1
-    if i < len(left) - 1:
-        result += left[i:]
-    elif j < len(right) - 1:
-        result += right[j:]
-    print(result)
+    result += left[i:]
+    result += right[j:]
+#    print(result)
     return result
-'''
+
 def merge_2n(left, right):
     if not left or not right:
         return left or right
@@ -54,10 +51,7 @@ def merge_2n(left, right):
 def test_merge_sort():
     seq = [x for x in range(10)]
     seq = random.sample(seq, 10)
-    results = merge_n([2,3,4],[5,7,1])
-    print(results)
-    result = merge_sort(seq)
-    print(result)
+#    print(seq)
     assert(merge_sort(seq) == sorted(seq))
     print('PASS')
 
