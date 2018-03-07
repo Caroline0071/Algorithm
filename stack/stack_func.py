@@ -29,6 +29,7 @@ def main():
     stack_a.push(1)
     stack_a.push(2)
     stack_a.push(3)
+#    print(stack_a)
     print(stack_a.size())
     print(stack_a.peek())
     print(stack_a.pop())
