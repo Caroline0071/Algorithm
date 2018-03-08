@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb370b7-ed71-4f0d-a841-f1950cda32f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dictinary/counting_frequency.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dictinary/default_dict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue/two_stack_to_queue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dictinary/counting_frequency.py" afterPath="$PROJECT_DIR$/dictinary/counting_frequency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stack/stack_func.py" afterPath="$PROJECT_DIR$/stack/stack_func.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="counting_frequency.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dictinary/counting_frequency.py">
+      <file leaf-file-name="two_stack_to_queue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/queue/two_stack_to_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="-150">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -41,12 +45,14 @@
       <list>
         <option value="$PROJECT_DIR$/dictinary/default_dict.py" />
         <option value="$PROJECT_DIR$/dictinary/counting_frequency.py" />
+        <option value="$PROJECT_DIR$/stack/stack_func.py" />
+        <option value="$PROJECT_DIR$/queue/two_stack_to_queue.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="46" />
-    <option name="y" value="23" />
+    <option name="x" value="16" />
+    <option name="y" value="124" />
     <option name="width" value="1400" />
     <option name="height" value="797" />
   </component>
@@ -78,12 +84,25 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="dictinary" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -97,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in counting_frequency.py">
+  <component name="RunManager" selected="Python tests.py.test in two_stack_to_queue.py">
     <configuration name="default_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,14 +149,48 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/dictinary/counting_frequency.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="2">
+    <configuration name="py.test in stack_func.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="$USER_HOME$/AlgorithmVirtualEnv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithm" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/stack/stack_func.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in two_stack_to_queue.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="$USER_HOME$/AlgorithmVirtualEnv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queue" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithm" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/queue/two_stack_to_queue.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.default_dict" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in counting_frequency.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in two_stack_to_queue.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in stack_func.py" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in counting_frequency.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.default_dict" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in two_stack_to_queue.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in stack_func.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in counting_frequency.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.default_dict" />
       </list>
     </recent_temporary>
   </component>
@@ -155,49 +208,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 20m 25s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 46m 53s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 20m 31s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 46m 59s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 20m 35s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 49m 55s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 21m 08s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 50m 01s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 21m 11s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 50m 39s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 21m 16s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 51m 32s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 21m 20s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 51m 47s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 21m 23s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 57m 42s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 21m 28s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 58m 25s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_counting_frequency_py - 2018.03.08 at 01h 21m 33s.xml">
-      <configuration name="py.test in counting_frequency.py" configurationId="tests" />
+    <history-entry file="py_test_in_two_stack_to_queue_py - 2018.03.08 at 23h 58m 35s.xml">
+      <configuration name="py.test in two_stack_to_queue.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1400" height="797" extended-state="1" />
+    <frame x="16" y="124" width="1400" height="797" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -217,7 +271,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -226,38 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1178" column="0" lean-forward="false" selection-start-line="1178" selection-start-column="0" selection-end-line="1178" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/_pytest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/pluggy/callers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/pluggy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="616" column="0" lean-forward="false" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -288,8 +310,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dictinary/counting_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/pluggy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="616" column="0" lean-forward="false" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/pluggy/callers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/_pytest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stack_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AlgorithmVirtualEnv/lib/python3.5/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/two_stack_to_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>

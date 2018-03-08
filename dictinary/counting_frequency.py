@@ -1,5 +1,6 @@
 '''
 Counting frequency items
+统计前n个words的频次
 多次运行有失败
 '''
 

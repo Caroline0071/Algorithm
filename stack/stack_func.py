@@ -24,7 +24,7 @@ class Stack(list):
     def size(self):
         return (len(self.items))
 
-def main():
+def test_stack():
     stack_a = Stack()
     stack_a.push(1)
     stack_a.push(2)
@@ -36,4 +36,4 @@ def main():
     print(stack_a.peek())
 
 if __name__ == '__main__':
-    main()
+    test_stack()
