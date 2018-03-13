@@ -12,10 +12,19 @@ def bubble_sort(seq):
                 seq[i], seq[j] = seq[j], seq[i]
     return seq
 
+
+def bubble_sort2(seq):
+    count = len(seq)
+    for i in range(count-1, 0, -1):
+        for j in range(0, i):
+            if seq[j] > seq[j+1]:
+                seq[j], seq[j+1] = seq[j+1], seq[j]
+    return seq
+
 def test_bubble_sort():
     seq = [x for x in range(10)]
     seq = random.sample(seq, 10)
-    assert(bubble_sort(seq) == sorted(seq))
+    assert(bubble_sort2(seq) == sorted(seq))
     print('PASS')
 
 if __name__ == '__main__':
